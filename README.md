@@ -16,6 +16,7 @@ The E-Commerce Back-End system established API calls for data base manipulation.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
+* [Routes](#routes)
 * [License](#license)
 * [Contributing](#contributing)
 * [Testing](#testing)
@@ -41,6 +42,42 @@ The E-Commerce Back-End system established API calls for data base manipulation.
 ```bash
 npm start
 ```
+
+## Routes
+
+### Category
+---
+- GET (Find) Categories - .../api/categories
+- GET (Find) Category - .../api/categories/:id
+- POST (Add) Category- .../api/categories
+```
+{
+	"category_name": "Sports Equipment" 
+}
+```
+- PUT (Update) Category- .../api/categories/:id
+```
+{
+	"category_name": "Sports Equipment" 
+}
+```
+- DEL (Delete) Category- .../api/categories/:id
+
+### Product
+---
+- GET (Find) Categories - 
+- GET (Find) Category
+- POST (Add) Category
+- PUT (Update) Category
+- DEL (Delete) Category
+
+### Tag
+--
+- GET (Find) Categories - 
+- GET (Find) Category
+- POST (Add) Category
+- PUT (Update) Category
+- DEL (Delete) Category
 
 ## License
 MIT License
