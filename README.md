@@ -47,37 +47,65 @@ npm start
 
 ### Category
 ---
-- GET (Find) Categories - .../api/categories
-- GET (Find) Category - .../api/categories/:id
-- POST (Add) Category- .../api/categories
+- GET Categories: .../api/categories
+- GET Category: .../api/categories/:id
+- POST Category: .../api/categories
 ```
 {
 	"category_name": "Sports Equipment" 
 }
 ```
-- PUT (Update) Category- .../api/categories/:id
+- PUT Category: .../api/categories/:id
 ```
 {
 	"category_name": "Sports Equipment" 
 }
 ```
-- DEL (Delete) Category- .../api/categories/:id
+- DEL Category: .../api/categories/:id
 
 ### Product
 ---
-- GET (Find) Categories - 
-- GET (Find) Category
-- POST (Add) Category
-- PUT (Update) Category
-- DEL (Delete) Category
+- GET Products: .../api/proudcts
+- GET Product: .../api/proudcts/:id
+- POST Product: .../api/proudcts
+```
+{
+	"product_name": "New York Yankees Hat",
+  "price": 200.00,
+  "stock": 3,
+	"category_id": 4,
+  "tagIds": [1, 2, 3, 4] 
+}
+```
+- PUT Product: .../api/tags/:id
+```
+{
+	"product_name": "Padrs Baseball Hat",
+  "price": 200.00,
+  "stock": 3,
+	"category_id": 4,
+  "tagIds": [1, 2, 3, 4] 
+}
+```
+- DEL Product: .../api/tags/:id
 
 ### Tag
---
-- GET (Find) Categories - 
-- GET (Find) Category
-- POST (Add) Category
-- PUT (Update) Category
-- DEL (Delete) Category
+---
+- GET Tags: .../api/tags
+- GET Tag: .../api/tags/:id
+- POST Tag: .../api/tags
+```
+{
+	"tag_name": "New Wave"
+}
+```
+- PUT Tag: .../api/tags/:id
+```
+{
+	"tag_name": "Salsa"
+}
+```
+- DEL Tag: .../api/tags/:id
 
 ## License
 MIT License
